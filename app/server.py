@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import joblib
 import numpy as np
 
-model = joblib.load("app/modele_SVM.pkl")
+model = joblib.load("random_forest_apple.pkl")
 
 class_names = np.array(["good", "bad"])
 
